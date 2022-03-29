@@ -5,31 +5,31 @@
 <?php
 
 $kat1 = array(
-    array('DAİRE NO 1' , 'KAYANLAR AİLESİ' ),
-    array('DAİRE NO 2' , 'ŞEKERCİOĞLU AİLESİ' ),
-    array('DAİRE NO 3' , 'GÜNGÖR AİLESİ' ),    
+    array('DAİRE NO 1' , 'ABC AİLESİ' ),
+    array('DAİRE NO 2' , 'DEF AİLESİ' ),
+    array('DAİRE NO 3' , 'GHI AİLESİ' ),    
 );
 
 $kat2 = array(
-    array('DAİRE NO 4' , 'YILMAZ AİLESİ' ),
-    array('DAİRE NO 5' , 'KAYA AİLESİ' ),
-    array('DAİRE NO 6' , 'DURANLAR AİLESİ' ),
+    array('DAİRE NO 4' , 'JKL AİLESİ' ),
+    array('DAİRE NO 5' , 'MNO AİLESİ' ),
+    array('DAİRE NO 6' , 'PRS AİLESİ' ),
 );
 
 $kat3 = array(
-    array('DAİRE NO 7' , 'SOLAK AİLESİ' ),
-    array('DAİRE NO 8' , 'İPEKCİOĞLU AİLESİ' ),
-    array('DAİRE NO 9' , 'KARAÇAY AİLESİ' ),
+    array('DAİRE NO 7' , 'TUV AİLESİ' ),
+    array('DAİRE NO 8' , 'XYZ AİLESİ' ),
+    array('DAİRE NO 9' , '123 AİLESİ' ),
 );
 
 $kat4 = array(
-    array('DAİRE NO 10' , 'ŞAHİN AİLESİ' ),
-    array('DAİRE NO 11' , 'BİNGÖL AİLESİ' ),
-    array('DAİRE NO 12' , 'VURULMAZ AİLESİ' ),
+    array('DAİRE NO 10' , '456 AİLESİ' ),
+    array('DAİRE NO 11' , '789 AİLESİ' ),
+    array('DAİRE NO 12' , 'A1B2 AİLESİ' ),
 );
 
 echo '<table border="1" bordercolor="#ff7a00" width="45%">';
-echo '<tr height="40px"><th colspan="3">PARK YAŞAM APT.</th></tr>';
+echo '<tr height="40px"><th colspan="3">QWERTY APT.</th></tr>';
 
 echo '<tr><td rowspan="4" align="center" style="width: 40%;">KAT 1</td></tr>';
 foreach( $kat1 as $bir )
